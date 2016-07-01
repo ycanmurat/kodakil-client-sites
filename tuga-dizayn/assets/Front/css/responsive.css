@@ -1,0 +1,420 @@
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 768px) {
+
+    a#wpButton p {
+        display: none;
+        border-radius: 50px;
+        margin: 0;
+    }
+
+    a#wpButton i {
+        margin: 0;
+        padding: 7px;
+    }
+
+    a#wpButton {
+        border: 0;
+        border-radius: 50px;
+        bottom: 63px;
+        height: 52px;
+    }
+
+    a#wpButton {
+        font-size: 12px;
+        bottom: 66px;
+    }
+    body {
+        margin-bottom:50px
+    }
+
+    header .header-container .header-menubar .header-account-content .header-nav .nav-list .right-siderbar {
+        width: 100%
+    }
+
+    header .header-container .header-menubar .header-account-content .header-mobile-menu {
+        display: block
+    }
+
+    header .header-container {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 99
+    }
+
+    header .header-container .header-topbar .header-topbar-content {
+        justify-content: center
+    }
+
+    header .header-container .header-menubar .header-menu-content {
+        position: fixed;
+        left: -100%;
+        top: 104px;
+        z-index: 99;
+        width: 300px;
+        height: 100%;
+        background-color: #282828;
+        transition: .3s
+    }
+
+    header .header-container .header-menubar .header-menu-content.active {
+        left: 0
+    }
+
+    header .header-container .header-menubar .header-menu-content .header-nav {
+        display: block;
+        text-align: left;
+        padding: 20px
+    }
+
+    header .header-container .header-menubar .header-menu-content .header-nav .nav-list {
+    }
+
+    header .header-container .header-menubar .header-menu-content .header-nav .nav-list .nav-link {
+        text-align: left
+    }
+
+    header .header-container .header-topbar .header-topbar-content .headSc {
+        display: none
+    }
+
+    header .header-container .header-menubar .header-account-content .header-search {
+        display: none
+    }
+
+    header .header-container .header-menubar .header-account-content .header-nav .nav-list .nav-link.profile-link {
+        display: none
+    }
+
+    header .header-container .header-menubar .header-account-content .header-logo {
+        max-width: 65px;
+    }
+
+    section.home-slider {
+        margin-top: 104px
+    }
+
+    section.home-slider .home-slider-container .home-slider {
+        height: 375px
+    }
+
+    section.home-products {
+    }
+
+    section.home-products .products-item-container {
+        padding: 27px 0
+    }
+
+    section.home-products .products-item-container .item-body {
+        padding: 0
+    }
+
+    section.home-project {
+    }
+
+    section.home-project .project-body::before {
+        border: none!important
+    }
+
+    section.home-project .home-project-container .project-body {
+        padding: 0
+    }
+
+    section.home-project .project-body .project-left-content .project-left-link::before {
+        content: ' ';
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+        display: block;
+        border: 2px solid #fb8900
+    }
+
+    section.home-reference {
+    }
+
+    footer .footer-container .footer-bank-logos.right {
+        text-align: center
+    }
+
+    footer .footer-container .footer-bank-logos.left {
+        overflow-x: scroll;
+        padding: 12px;
+        display: block;
+        white-space: nowrap;
+        width: inherit
+    }
+
+    section.page-header-container {
+        margin-top: 105px;
+        padding: 25px 0
+    }
+
+    section.page-header-container h2.product-list-title {
+        font-size: 22px
+    }
+
+    section.page-header-container p.product-list-content {
+        font-size: 18px
+    }
+
+    section.product-list .product-list-container .product-list-row {
+        padding: 6px 0
+    }
+
+    section.page-header-container .product-detail-title {
+        font-size: 22px
+    }
+
+    section.page-header-container .product-detail-price {
+        font-size: 18px
+    }
+
+    section.product-detail .product-detail-container .product-detail-info .btn-group {
+        display: block
+    }
+
+    section.product-detail .product-detail-container .product-detail-info .btn-group .add-card-link {
+        width: 100%;
+        display: block
+    }
+
+    section.product-detail .product-detail-container .product-detail-info .btn-group .add-share-link {
+        width: 100%;
+        display: block;
+        margin-top: 12px;
+        margin-left: 0
+    }
+
+    section.product-detail .product-detail-container.top {
+        padding: 15px 0
+    }
+
+    section.bottom-bar {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 5;
+        background-color: #fff;
+        border-top: 1px solid #eee;
+        padding: 10px
+    }
+
+    section.bottom-bar .bottom-menubar-container {
+    }
+
+    section.bottom-bar .bottom-menubar-container .menubar-nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden
+    }
+
+    section.bottom-bar .bottom-menubar-container .menubar-nav .menubar-list {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    section.bottom-bar .bottom-menubar-container .menubar-nav .menubar-list .menubar-link {
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        color: #333;
+        z-index: 2;
+        font-size: 18px;
+        position: relative
+    }
+
+    section.bottom-bar .bottom-menubar-container .menubar-nav .menubar-list .menubar-link.home {
+        background-color: #333;
+        color: #fff;
+        border-radius: 25px
+    }
+
+    section.bottom-bar .bottom-menubar-container .menubar-nav .menubar-list .menubar-link .icon-ifa {
+        width: 100%
+    }
+
+    section.bottom-bar .bottom-menubar-container .menubar-nav .menubar-list .menubar-link .icon-text {
+        font-size: 12px;
+        padding-left: 4px
+    }
+
+    section.bottom-bar .bottom-menubar-container .menubar-nav .menubar-list .menubar-link .bag-number {
+        position: absolute;
+        left: -1px;
+        top: 0;
+        width: 17px;
+        height: 17px;
+        font-size: 10px;
+        line-height: 9px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fb8900;
+        border-radius: 50%;
+        color: #fff
+    }
+
+    section.basket-container {
+        margin-top: 90px;
+        padding-bottom: 80px
+    }
+
+    section.basket-container .basket-list {
+    }
+
+    section.cart-header-container .cart-header .cart_logo {
+        max-width: 80px
+    }
+
+    section.address-container {
+        padding: 18px 0
+    }
+
+    section.payment-container {
+        padding: 18px 0
+    }
+
+    section.abouts {
+        padding: 18px 0;
+        margin-bottom: 27px
+    }
+
+    section.projects {
+        padding: 18px 0
+    }
+
+    section.projects .projects-container {
+        padding: 0
+    }
+
+    section.projects .projects-content {
+        margin-bottom: 18px
+    }
+
+    section.projects-detail-container {
+        padding: 18px 0
+    }
+
+    section.projects-detail-container .projects-card {
+        margin-bottom: 18px
+    }
+
+    section.payment-container .Cart_Content {
+        padding: 0
+    }
+
+    section.abouts .tabbable {
+        display: block
+    }
+
+    section.abouts .tabbable .nav {
+        overflow-x: scroll;
+        display: flex;
+        white-space: nowrap;
+        width: inherit;
+        max-width: inherit;
+        border: 0;
+        margin-right: 0
+    }
+
+    section.abouts .tabbable .nav>li {
+    }
+
+    section.abouts .tabbable .nav>li>a {
+    }
+
+    section.abouts .tabbable .tab-content {
+    }
+
+    section.abouts .tabbable .tab-content>.tab-pane {
+    }
+
+    section.page-header-container .page-header-title {
+        font-size: 22px
+    }
+
+    section.home-abouts .home-abouts-container .abouts-header h1 {
+        font-size: 22px
+    }
+
+    section.home-abouts .home-abouts-container .abouts-body .abouts-content {
+        font-size: 14px
+    }
+
+    .addition-card {
+        margin-top: 27px
+    }
+
+    .modal .modal-dialog .modal-content .modal-body {
+        padding: 35px 20px
+    }
+
+    .modal-dialog {
+        margin: 30px 15px
+    }
+
+    .our-table {
+    }
+
+    .our-table .our-tbody {
+        margin-bottom: 27px
+    }
+
+    .our-table .our-tbody .our-tr {
+        flex-direction: column;
+        padding: 0;
+        justify-content: flex-start;
+        align-items: baseline;
+        background-color: #eee
+    }
+
+    .our-table .our-tbody .our-tr .our-td {
+        float: left;
+        display: inline-block;
+        flex: auto
+    }
+
+    .our-table .our-tbody .our-tr .our-td:last-child {
+        position: absolute;
+        bottom: 20px;
+        right: 10px
+    }
+
+    .our-table .our-tbody .our-tr .our-td .td-image {
+    }
+
+    .our-table .our-tbody .our-tr .our-td .td-image>img {
+        max-width: 100%
+    }
+
+    .our-table .our-tbody .our-tr .our-td>span {
+        padding-left: 7px
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    section.payment-container .selectPaymentButtons span.active b {
+        font-size: 7px;
+        padding: 2px 2px;
+    }
+    section.payment-container .selectPaymentButtons span{font-size:13px;}
+}

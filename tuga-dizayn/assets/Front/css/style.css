@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'Lato TR Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Lato TR Regular'), url('LatoTR-Regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Lato TR Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Lato TR Bold'), url('LatoTR-Bold.woff') format('woff');
+}
+@font-face {
+	font-family: 'Lato TR Light';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Lato TR Light'), url('LatoTR-Light.woff') format('woff');
+}
+@font-face {
+	font-family: 'Lato TR Black';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Lato TR Black'), url('LatoTR-Black.woff') format('woff');
+}
