@@ -1,0 +1,70 @@
+body{
+	font-family: 'Muli', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Muli', sans-serif;
+}
+
+*{
+	font-family: inherit;
+}
+
+header {
+	/* background: black; */
+	position: absolute;
+	right: 0;
+	left: 0;
+}
+
+header nav {
+	display: flex;
+	align-items: center;
+	padding: 20px 0px;
+}
+
+header nav a.logo {
+	display: flex;
+	align-items: center;
+	font-size: 19px;
+	letter-spacing: 2px;
+	color: #dedede;
+}
+
+header nav a.logo img {
+	width: 60px;
+	margin-right: 7px;
+	filter: brightness(9.5);
+}
+
+header ul {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+
+header ul li {
+	margin: 0px 6px;
+}
+
+header ul li a {
+	font-size: 15px;
+	letter-spacing: 0.3px;
+	padding: 5px 6px;
+	color: #dedede;
+}
+
+section.welcome {
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	z-index: -1;
+}
+
+section.welcome:before {content: '';position: absolute;right: 0;left: 0;top: 0;bottom: 0;background: linear-gradient(180deg, black, transparent);z-index: 0;}
+
+.container-fluid {
+	padding: 0px 160px;
+}
