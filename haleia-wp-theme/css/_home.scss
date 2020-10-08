@@ -1,0 +1,178 @@
+.main-sections {
+    &.main-collection-section {
+        width: 100%;
+        min-height: 100vh;
+        background-color: $secondaryColor;
+
+        .collection-content {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            gap: 0;
+            grid-auto-rows: 100vh;
+
+            .collection-left {
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                padding: 40px;
+
+                .collection-left-content {
+                    max-width: 600px;
+                }
+
+                p {
+                    font-size: 1rem;
+                    margin-bottom: 30px;
+                    line-height: 1.1;
+                    font-weight: 500;
+                }
+
+                a {
+                    font-size: 1rem;
+                    padding: 0 10px;
+                    border-bottom: solid 1px $primaryColor;
+                    color: $primaryColor;
+                }
+            }
+
+            .collection-right {
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .collection-reverse-content {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            gap: 0;
+            grid-auto-rows: 100vh;
+
+            .collection-left {
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                padding: 40px;
+
+                .collection-left-content {
+                    max-width: 600px;
+                }
+
+                p {
+                    font-size: 1rem;
+                    margin-bottom: 30px;
+                    line-height: 1.1;
+                    font-weight: 500;
+                }
+
+                a {
+                    font-size: 1rem;
+                    padding: 0 10px;
+                    border-bottom: solid 1px $primaryColor;
+                    color: $primaryColor;
+                }
+            }
+
+            .collection-right {
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+    &.main-newdress-section {
+        width: 100%;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .new-dress-content {
+            h3 {
+                font-size: 1.5rem;
+                font-weight: 500;
+                margin-bottom: 40px;
+            }
+
+            a {
+                font-size: 1rem;
+                padding: 0 10px;
+                border-bottom: solid 1px $primaryColor;
+                color: $primaryColor;
+            }
+        }
+    }
+
+    &.main-pages-section {
+        width: 100%;
+        min-height: 50vh;
+        background-color: $secondaryColor;
+
+        .main-pages-content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 50px;
+            padding: 150px 75px;
+
+            h4 {
+                font-size: 1.3rem;
+                font-weight: 500;
+                margin-bottom: 40px;
+            }
+
+            p {
+                font-size: 0.95rem;
+                margin-bottom: 30px;
+                line-height: 1.1;
+                font-weight: 500;
+                min-height: 2.2rem;
+            }
+
+            a {
+                font-size: 1rem;
+                padding: 0 10px;
+                border-bottom: solid 1px $primaryColor;
+                color: $primaryColor;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main-sections {
+        &.main-collection-section {
+            .collection-content {
+                grid-template-columns: 50% 50%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-sections {
+        &.main-pages-section {
+            .main-pages-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main-sections {
+        &.main-collection-section {
+            .collection-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}

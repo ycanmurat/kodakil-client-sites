@@ -1,0 +1,17 @@
+$primaryColor : #000000;
+$secondaryColor : #e3cdbf;
+
+@mixin animfast {
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out; 
+}
+
+@mixin anim {
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; 
+}
+
+@mixin animslow {
+    -webkit-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out; 
+}

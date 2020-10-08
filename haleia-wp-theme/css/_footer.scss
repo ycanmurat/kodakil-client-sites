@@ -1,0 +1,111 @@
+footer {
+    .newsletter-subscription {
+        display: inline-block;
+        max-width: 400px;
+        width: 100%;
+        margin: 80px auto;
+
+        form {
+            p {
+                display: flex;
+                flex-direction: row-reverse;
+
+                input {
+                    border: none;
+                    border-radius: 0;
+                    margin: 0;
+                    padding: 0;
+
+                    &.wpcf7-email {
+                        padding: 5px 5px;
+                        font-size: .75rem;
+                    }
+
+                    &.wpcf7-submit {
+                        font-size: .95rem;
+                        color: #000;
+                        font-weight: 600;
+                        margin-right: 15px;
+                        cursor: pointer;
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-navs {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        column-gap: 50px;
+
+        ul {
+            li {
+                display: block;
+                margin-bottom: 10px;
+
+                a {
+                    color: #000;
+                    font-size: .95rem;
+                    font-weight: 500;
+                }
+
+                
+
+                &.menu-header {
+
+                    margin-bottom: 15px;
+                    margin-top: 30px;
+
+                    a {
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            @media screen and (max-width: 1281px) {
+                li {
+                    a {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .site-info {
+        font-size: .75rem;
+        color: #000;
+
+        a {
+            color: #000;
+        }
+    }
+}
+
+@media screen and (max-width:992px){
+    footer{
+        .footer-navs{
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 20px;
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    footer{
+        .footer-navs{
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 50px;
+        }
+    }
+}
+
+@media screen and (max-width:450px){
+    footer{
+        .footer-navs{
+            grid-template-columns: repeat(1, 1fr);
+            column-gap: 50px;
+            text-align: center;
+        }
+    }
+}
