@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+	<link rel="canonical" href="https://vavoldect.com/">
+	<link rel="shortcut icon" href="favicon.png">
+	<meta name="description" content="Coming Soon Vavoldect">
+	<meta name="twitter:description" content="Coming Soon Vavoldect">
+	<meta property="og:title" content="Vavoldect Coming Soon">
+	<meta property="og:description" content="Coming Soon Vavoldect">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+	<meta name="title">
+	<title>Vavoldect</title>
+</head>
+<body>
+	<div class="Area">
+		<a target="_blank" href="https://vimeo.com/vavoldect">
+			<div class="iz">
+				<img class="fimg" src="iz-white.png" alt="vavoldect">
+				<div class="ww">
+					<img src="iz.png" alt="vavoldect">
+				</div>
+			</div>
+		</a>
+	</div>
+	<img class="logo" src="red.png">
+
+	<style>
+	body {background: black;}
+	.Area {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	img {
+		width: 80vh;
+		max-width: 100%;
+	}
+
+	.iz .ww img {
+		position: absolute;
+		left: 0;
+		right: 0px;
+		margin: auto;
+		top: 8px;
+	}
+	.ww {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 0;
+		overflow: hidden;
+		transition: all ease 7s 0s;
+	}
+
+	.ww.active {
+		height: 100%;
+	}
+	img.logo {
+		width: 160px;
+		margin: auto;
+		position: absolute;
+		bottom: 10px;
+		right: 0;
+		left: 0;
+	}
+
+	.iz .ww img.ready {
+		animation: clickAnimation 1s linear infinite alternate both;
+	}
+
+	@keyframes clickAnimation {
+		from {width: 80vh;}
+		to {width: 75vh;}
+	}
+</style>
+
+<script>
+	$(document).ready(function() {
+		setTimeout(function(){
+			$('.ww').addClass('active');
+			$('.fimg').fadeOut(6000);
+		}, 1000);
+		setTimeout(function(){
+			$('.ww img').addClass('ready');
+		}, 5000);
+		setTimeout(function(){
+			$('a').trigger();
+		}, 7000);
+	});
+	var bottle = 700;
+
+	var alcohol = bottle*40/100;
+	var water = bottle*60/100;
+	var aroma = 10;
+
+	var whiskey = 'Alkol :'+alcohol +' su :'+ water +' aroma :'+ aroma;
+	console.log(whiskey);
+</script>
+</body>
+</html>
